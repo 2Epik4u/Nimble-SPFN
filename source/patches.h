@@ -19,12 +19,12 @@ static  const URL_Patch url_patches[] = {
     {0xE2282DB4, "https://ecs.wup.shop.pretendo.cc/ecs/services/ECommerceSOAP"},
     {0xE22830A0, "https://ecs.wup.shop.pretendo.cc/ecs/services/ECommerceSOAP"},
     {0xE22830E0, "https://nus.wup.shop.pretendo.cc/nus/services/NetUpdateSOAP"},
-    {0xE2299990, "boss.spfn.net"}, // check
+    {0xE2299990, "staging-boss.spfn.net"},
     {0xE229A600, "https://pls.wup.shop.pretendo.cc/pls/upload"},
     {0xE229A6AC, "https://npvk-dev.app.pretendo.cc/reports"},
     {0xE229A6D8, "https://npvk.app.pretendo.cc/reports"},
-    {0xE229B1F4, "https://boss.spfn.net/p01/tasksheet/%s/%s/%s/%s?c=%s&l=%s"},
-    {0xE229B238, "https://boss.spfn.net/p01/tasksheet/%s/%s/%s?c=%s&l=%s"},
+    {0xE229B1F4, "https://staging-boss.spfn.net/p01/tasksheet/%s/%s/%s/%s?c=%s&l=%s"},
+    {0xE229B238, "https://staging-boss.spfn.net/p01/tasksheet/%s/%s/%s?c=%s&l=%s"},
     {0xE22AB2D8, "https://idbe-wup.cdn.pretendo.cc/icondata/%02X/%016llX.idbe"},
     {0xE22AB318, "https://idbe-ctr.cdn.pretendo.cc/icondata/%02X/%016llX.idbe"},
     {0xE22AB358, "https://idbe-wup.cdn.pretendo.cc/icondata/%02X/%016llX-%d.idbe"},
@@ -36,7 +36,7 @@ static  const URL_Patch url_patches[] = {
     {0xE22B3FFC, "https://nus.c.shop.pretendo.cc/nus/services/NetUpdateSOAP"},
     {0xE229DE0C, "n.app.pretendo.cc"},
     //nim-boss .bss
-    {0xE24B8A24, "https://boss.spfn.net/p01/policylist/1/1/UNK"}, //bit of a hack
+    {0xE24B8A24, "https://staging-boss.spfn.net/p01/policylist/1/1/UNK"}, //bit of a hack
     {0xE31930D4, "https://%s%saccount.spfn.net/v%u/api/"}
 
 };
