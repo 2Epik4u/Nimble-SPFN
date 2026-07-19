@@ -8,36 +8,36 @@ typedef struct URL_Patch
 } URL_Patch;
 
 static  const URL_Patch url_patches[] = {
-    //nim-boss .rodata
-    {0xE2282550, "http://pushmore.wup.shop.pretendo.cc/pushmore/r/%s"},
-    {0xE229A0A0, "http://npns-dev.c.app.pretendo.cc/bst.dat"},
-    {0xE229A0D0, "http://npns-dev.c.app.pretendo.cc/bst2.dat"},
-    {0xE2281964, "https://tagaya.wup.shop.pretendo.cc/tagaya/versionlist/%s/%s/%s"},
-    {0xE22819B4, "https://tagaya.wup.shop.pretendo.cc/tagaya/versionlist/%s/%s/latest_version"},
-    {0xE2282584, "http://pushmo.wup.shop.pretendo.cc/pushmo/d/%s/%u"},
-    {0xE22825B8, "http://pushmo.wup.shop.pretendo.cc/pushmo/c/%u/%u"},
-    {0xE2282DB4, "https://ecs.wup.shop.pretendo.cc/ecs/services/ECommerceSOAP"},
-    {0xE22830A0, "https://ecs.wup.shop.pretendo.cc/ecs/services/ECommerceSOAP"},
-    {0xE22830E0, "https://nus.wup.shop.pretendo.cc/nus/services/NetUpdateSOAP"},
-    {0xE2299990, "boss.spfn.net"}, // check
-    {0xE229A600, "https://pls.wup.shop.pretendo.cc/pls/upload"},
-    {0xE229A6AC, "https://npvk-dev.app.pretendo.cc/reports"},
-    {0xE229A6D8, "https://npvk.app.pretendo.cc/reports"},
-    {0xE229B1F4, "https://boss.spfn.net/p01/tasksheet/%s/%s/%s/%s?c=%s&l=%s"},
-    {0xE229B238, "https://boss.spfn.net/p01/tasksheet/%s/%s/%s?c=%s&l=%s"},
-    {0xE22AB2D8, "https://idbe-wup.cdn.pretendo.cc/icondata/%02X/%016llX.idbe"},
-    {0xE22AB318, "https://idbe-ctr.cdn.pretendo.cc/icondata/%02X/%016llX.idbe"},
-    {0xE22AB358, "https://idbe-wup.cdn.pretendo.cc/icondata/%02X/%016llX-%d.idbe"},
-    {0xE22AB398, "https://idbe-ctr.cdn.pretendo.cc/icondata/%02X/%016llX-%d.idbe"},
-    {0xE22B3EF8, "https://ecs.c.shop.pretendo.cc"},
-    {0xE22B3F30, "https://ecs.c.shop.pretendo.cc/ecs/services/ECommerceSOAP"},
-    {0xE22B3F70, "https://ias.c.shop.pretendo.cc/ias/services/IdentityAuthenticationSOAP"},
-    {0xE22B3FBC, "https://cas.c.shop.pretendo.cc/cas/services/CatalogingSOAP"},
-    {0xE22B3FFC, "https://nus.c.shop.pretendo.cc/nus/services/NetUpdateSOAP"},
-    {0xE229DE0C, "n.app.pretendo.cc"},
-    //nim-boss .bss
-    {0xE24B8A24, "https://boss.spfn.net/p01/policylist/1/1/UNK"}, //bit of a hack
-    {0xE31930D4, "https://%s%saccount.spfn.net/v%u/api/"}
+        //nim-boss .rodata
+        {0xE2282550, "http://pushmorewupshop.spfn.net/pushmore/r/%s"},
+        {0xE229A0A0, "http://npns-devcapp.spfn.net/bst.dat"},
+        {0xE229A0D0, "http://npns-devcapp.spfn.net/bst2.dat"},
+        {0xE2281964, "https://tagayawupshop.spfn.net/tagaya/versionlist/%s/%s/%s"},
+        {0xE22819B4, "https://tagayawupshop.spfn.net/tagaya/versionlist/%s/%s/latest_version"},
+        {0xE2282584, "http://pushmowupshop.spfn.net/pushmo/d/%s/%u"},
+        {0xE22825B8, "http://pushmowupshop.spfn.net/pushmo/c/%u/%u"},
+        {0xE2282DB4, "https://ecswupshop.spfn.net/ecs/services/ECommerceSOAP"},
+        {0xE22830A0, "https://ecswupshop.spfn.net/ecs/services/ECommerceSOAP"},
+        {0xE22830E0, "https://nuswupshop.spfn.net/nus/services/NetUpdateSOAP"},
+        {0xE2299990, "npplapp.spfn.net"},
+        {0xE229A600, "https://plswupshop.spfn.net/pls/upload"},
+        {0xE229A6AC, "https://npvk-devapp.spfn.net/reports"},
+        {0xE229A6D8, "https://npvkapp.spfn.net/reports"},
+        {0xE229B1F4, "https://nptsapp.spfn.net/p01/tasksheet/%s/%s/%s/%s?c=%s&l=%s"},
+        {0xE229B238, "https://nptsapp.spfn.net/p01/tasksheet/%s/%s/%s?c=%s&l=%s"},
+        {0xE22AB2D8, "https://idbe-wupcdn.spfn.net/icondata/%02X/%016llX.idbe"},
+        {0xE22AB318, "https://idbe-ctrcdn.spfn.net/icondata/%02X/%016llX.idbe"},
+        {0xE22AB358, "https://idbe-wupcdn.spfn.net/icondata/%02X/%016llX-%d.idbe"},
+        {0xE22AB398, "https://idbe-ctrcdn.spfn.net/icondata/%02X/%016llX-%d.idbe"},
+        {0xE22B3EF8, "https://ecscshop.spfn.net"},
+        {0xE22B3F30, "https://ecscshop.spfn.net/ecs/services/ECommerceSOAP"},
+        {0xE22B3F70, "https://iascshop.spfn.net/ias/services/IdentityAuthenticationSOAP"},
+        {0xE22B3FBC, "https://cascshop.spfn.net/cas/services/CatalogingSOAP"},
+        {0xE22B3FFC, "https://nuscshop.spfn.net/nus/services/NetUpdateSOAP"},
+        {0xE229DE0C, "n.app.spfn.net"},
+        //nim-boss .bss
+        {0xE24B8A24, "https://npplapp.spfn.net/p01/policylist/1/1/UNK"},
+        {0xE31930D4, "https://%s%saccount.spfn.net/v%u/api/"}
 
 };
 
